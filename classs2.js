@@ -35,5 +35,32 @@ switch(grade){
     break;
     case 'D':document.write("jyada acha n</br");
     default:document.write("bekar</br")
-}*/
-//
+}
+//Button - Function
+function myfunction(){
+    alert("hello world!");
+}
+function sayhello(name,age){
+    document.write(name+"is"+age+"years old");
+}
+var add2=(a,b)=>{
+    console.log(a+b);
+}
+add2s(9,4);
+
+var person={
+    name:"ARPAN SHARMA",
+    age:24,
+    isorted:true,
+    address:{
+        street:"chipiyana buzurg",
+        flatNO:10,
+    }
+};*/
+
+var person2=nameobject();
+person2.name="arpan sharma",
+person2.age="19",
+person.address=[],
+person2.address.street="nagar.road",
+person2["address"]["flatNO"]=19;
