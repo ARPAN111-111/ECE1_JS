@@ -18,3 +18,10 @@ if(sym1==sym2){
 else{
     console.log("false");
 }
+/*maximum of three numbers */
+var a=10;
+console.log(a);
+var b=9;
+console.log(b);
+var c=8;
+console.log(c);
